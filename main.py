@@ -1,6 +1,6 @@
-# --------------------
-# ------variable------
-# --------------------
+# --------------------------------
+# ------------variable------------
+# --------------------------------
 
 # number
 salary = 1000
@@ -79,3 +79,46 @@ print(friends)
 # set element value by index
 friends[1] = "taskin"
 print(friends)
+
+# -----------------------------------------
+# -------------------loop------------------
+# -----------------------------------------
+
+# for loop
+for item in grocery:
+    # indentantion
+    if item > 3000:
+        print(item)
+
+
+for item in grocery:
+    if item > 3000:
+        # stop the loop
+        break
+    print(item)
+
+for item in grocery:
+    if item > 5000:
+        # use continue to ignore
+        # use item < 0 to ignore - number
+        continue
+    print(item)
+
+# while loop
+num = 0
+
+while num < 10:
+    num = num + 1
+    print(num)
+
+while num <= 50:
+    num = num + 1
+    if num < 30:
+        continue
+    print(num)
+
+while num <= 50:
+    num = num + 1
+    if num > 30:
+        break
+    print(num)

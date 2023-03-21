@@ -1,7 +1,7 @@
-grocery = [1000, 3000, 5000, 7000, 9000]
-friends = ["tamim", "shakib", "tanvir"]
-count = len(friends)
-print(count)
+num = 0
 
-friends[1] = "taskin"
-print(friends)
+while num <= 50:
+    num = num + 1
+    if num > 30:
+        break
+    print(num)
