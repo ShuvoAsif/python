@@ -49,7 +49,9 @@ else:
 # or
 price1 = 7000
 storage = 126
-if price < 5000 or storage > 126:
+if price < 5000 and storage > 126:
+    print("i will buy three")
+elif price < 5000 or storage > 126:
     print("i will buy it")
 else:
     print("i wont buy it")
