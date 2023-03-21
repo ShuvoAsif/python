@@ -28,7 +28,9 @@ salary = float(input("Your salary: "))
 
 print("all inputs are", name, age, salary)
 
-# ------condition------
+# ----------------------------
+# ----------condition---------
+# ----------------------------
 
 price = 1500
 if price < 1500:
@@ -51,3 +53,29 @@ if price < 5000 or storage > 126:
     print("i will buy it")
 else:
     print("i wont buy it")
+
+# ------------------------------
+# --------------list------------
+# ------------------------------
+
+grocery = [1000, 3000, 5000, 7000, 9000]
+friends = ["tamim", "shakib", "tanvir", "shaon", "tonoy"]
+# length
+count = len(friends)
+print(count)
+
+# get element value by index
+friend = friends[3]
+print(friend)
+
+# use append to add element in the last
+friends.append("robin")
+print(friends)
+
+# use remove to delet an element
+friends.remove("robin")
+print(friends)
+
+# set element value by index
+friends[1] = "taskin"
+print(friends)
