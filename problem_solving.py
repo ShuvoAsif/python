@@ -23,3 +23,22 @@ m = m + n
 n = m - n
 m = m - n
 print('m', m, 'n', n)
+
+# -------detect a leap year-------
+
+year_text = input('Insert your year: ')
+year = int(year_text)
+print(year % 4 == 0)
+
+if year % 4 == 0:
+    print('Your year is a leap year')
+else:
+    print('your year is not a leap year')
+
+# -------max or min of multiple items-------
+# -------find sum or average of a list-------
+# -------largest or smallest number in list-------
+# -------count words in a sentence-------
+# -------number of vowels in a sentence-------
+# -------sum of all digits in a number-------
+# -------reverse a string in multiple ways-------

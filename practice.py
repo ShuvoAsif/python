@@ -1,9 +1,8 @@
-def multiply_double(num):
-    result = num * 2
-    return result
+year_text = input('Insert your year: ')
+year = int(year_text)
+print(year % 4 == 0)
 
-
-first_bank_amount = multiply_double(15)
-second_bank_amount = multiply_double(35)
-total = first_bank_amount + second_bank_amount
-print('total money i have', total)
+if year % 4 == 0:
+    print('Your year is a leap year')
+else:
+    print('your year is not a leap year')
