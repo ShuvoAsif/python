@@ -1,8 +1,6 @@
-year_text = input('Insert your year: ')
-year = int(year_text)
-print(year % 4 == 0)
+bill = int(input('How much money Bill has: '))
+jeff = int(input('How much money Jeff has: '))
+elon = int(input('How much money Elon has: '))
 
-if year % 4 == 0:
-    print('Your year is a leap year')
-else:
-    print('your year is not a leap year')
+richest = min(bill, jeff, elon)
+print('Poorest person has', richest)

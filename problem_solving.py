@@ -36,6 +36,26 @@ else:
     print('your year is not a leap year')
 
 # -------max or min of multiple items-------
+
+bill = int(input('How much money Bill has: '))
+jeff = int(input('How much money Jeff has: '))
+elon = int(input('How much money Elon has: '))
+
+if bill > jeff and bill > elon:
+    print('Bill is Richer', bill)
+elif jeff > bill and jeff > elon:
+    print('Jeff is Richer', jeff)
+else:
+    print('Elon is Richer', elon)
+
+# alternative max
+richest = max(bill, jeff, elon)
+print('Richest person has', richest)
+
+# alternative min
+richest = min(bill, jeff, elon)
+print('Poorest person has', richest)
+
 # -------find sum or average of a list-------
 # -------largest or smallest number in list-------
 # -------count words in a sentence-------
