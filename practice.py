@@ -1,6 +1,7 @@
-bill = int(input('How much money Bill has: '))
-jeff = int(input('How much money Jeff has: '))
-elon = int(input('How much money Elon has: '))
-
-richest = min(bill, jeff, elon)
-print('Poorest person has', richest)
+nums = [47, 49, 51, 31, 35, 39, 37]
+sum = 0
+for num in nums:
+    print('before adding:', sum)
+    print(num)
+    sum = sum + num
+    print('after adding:', sum)

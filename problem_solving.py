@@ -57,6 +57,15 @@ richest = min(bill, jeff, elon)
 print('Poorest person has', richest)
 
 # -------find sum or average of a list-------
+
+nums = [47, 49, 51, 31, 35, 39, 37]
+sum = 0
+for num in nums:
+    print('before adding:', sum)
+    print(num)
+    sum = sum + num
+    print('after adding:', sum)
+
 # -------largest or smallest number in list-------
 # -------count words in a sentence-------
 # -------number of vowels in a sentence-------
