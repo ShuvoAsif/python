@@ -23,6 +23,11 @@ print("this person is", status)
 
 name = input("What's your name: ")
 age = int(input("What's your age: "))
+
+# int to str
+age = 45
+age = str(age)
+
 # fraction number
 salary = float(input("Your salary: "))
 
