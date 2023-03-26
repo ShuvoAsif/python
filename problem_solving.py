@@ -134,6 +134,12 @@ while num > 0:
     num = num // 10
 print(sum)
 
+# alternative
+num = 457881245
+text = str(num)
+count = sum(int(d) for d in text)
+print(count)
+
 # -------reverse a string in multiple ways-------
 
 text = 'i am a programmer'
