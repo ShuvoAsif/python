@@ -1,9 +1,9 @@
-text = 'I am a good person'
-count = 0
-voweles = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
-
-for char in text:
-    # if char == 'a' or char == 'e' or char == 'i' or char == 'o' or char == 'u':
-    if char in voweles:
-        count = count + 1
-print('Your total number of vowels is: ', count)
+num = int(input("Enter your number:"))
+sum = 0
+# fraction rounded by //
+while num > 0:
+    last_digit = num % 10
+    print(num, last_digit)
+    sum = sum + last_digit
+    num = num // 10
+print(sum)
