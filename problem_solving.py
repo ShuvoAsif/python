@@ -99,6 +99,17 @@ for num in nums:
 print('smallest number you have', smallest)
 
 # -------count words in a sentence-------
+
+text = 'I am a good person'
+count = 0
+if len(text) > 0:
+    count = 1
+print(len(text))
+for char in text:
+    if char == " ":
+        count = count + 1
+print('Your total number of words is: ', count)
+
 # -------number of vowels in a sentence-------
 # -------sum of all digits in a number-------
 # -------reverse a string in multiple ways-------
