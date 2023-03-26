@@ -77,6 +77,19 @@ for num in nums:
 print('avg of all numbers:', avg)
 
 # -------largest or smallest number in list-------
+
+# largest
+nums = [43, 45, 55, 47, 59, 57, 77, 73, 79]
+largest = nums[0]
+for num in nums:
+    print(largest, num)
+    if num > largest:
+        print('condition is true')
+        largest = num
+print('largest number you have', largest)
+
+# smallest
+
 # -------count words in a sentence-------
 # -------number of vowels in a sentence-------
 # -------sum of all digits in a number-------
