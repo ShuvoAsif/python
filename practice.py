@@ -1,9 +1,9 @@
 text = 'I am a good person'
 count = 0
-if len(text) > 0:
-    count = 1
-print(len(text))
+voweles = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+
 for char in text:
-    if char == " ":
+    # if char == 'a' or char == 'e' or char == 'i' or char == 'o' or char == 'u':
+    if char in voweles:
         count = count + 1
-print('Your total number of words is: ', count)
+print('Your total number of vowels is: ', count)
