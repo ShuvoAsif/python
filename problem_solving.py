@@ -141,3 +141,9 @@ reverse = ''
 for char in text:
     reverse = char + reverse
 print(reverse)
+
+# alternative
+text = 'i am a programmer.'
+reverse = text[::-1]
+
+print(reverse)
