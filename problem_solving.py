@@ -135,3 +135,9 @@ while num > 0:
 print(sum)
 
 # -------reverse a string in multiple ways-------
+
+text = 'i am a programmer'
+reverse = ''
+for char in text:
+    reverse = char + reverse
+print(reverse)
